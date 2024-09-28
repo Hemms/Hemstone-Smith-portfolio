@@ -1,85 +1,421 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hemstone Smith Portfolio</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="stylesheet" href="style.css">
+
+    <!-- boxicons -->
+
 </head>
+
 <body>
-    <header>
-        <h1>Hello</h1>
-        <p>Welcome to my portfolio showcasing my skills, Education background, and projects!</p>
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+        <div class="burger-menu" id="burgerMenu">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="navbar" id="navItems">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
 
-    <section id="about">
-        <h2>📝 About Me</h2>
-        <p>Hi! I'm Hemstone Smith, a passionate software engineer with expertise in full-stack development,
-             backend systems, and web design...</p>
+    <!-- Home-section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Hemstone Smith</h1>
+            <h3>And I'm a <span>Full Stack Developer</span></h3>
+            <p> I am an experienced software engineer with a robust background in full-stack development, 
+                backend systems, and web design and development. I am driven by a passion for crafting 
+                innovative solutions and overseeing projects from inception to completion. I am enthusiastic
+                 about collaborating with teams
+                 to address complex challenges and contribute to pioneering 
+                 advancements in the tech industry..!</p>
+            <div class="social-media">
+                <a href="https://web.facebook.com/hemstone.smith.16"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/Hemms"><i class="fab fa-github"></i></a>
+                <a href=""><i class="fab fa-figma"></i></a>
+                <a href="https://www.linkedin.com/in/hemstone-smith-47ab19250"><i class="fab fa-linkedin"></i></a>
+                <a href="https://stackoverflow.com/users/21705560/purity-irungu"><i class="fab fa-stack-overflow"></i></a>
+            </div>
+            <a href="CV.pdf" class="btn" download>Download Resume</a>
+        </div>
+        <div class="home-img">
+            <img src="DSC_0219.JPG" alt="">
+        </div>
     </section>
 
-    <section id="skills">
-        <h2>💻 Programming Languages</h2>
-        <ul>
-            <li>Python</li>
-            <li>JavaScript</li>
-            <li>HTML & CSS</li>
-            <li>SQL</li>
-            <li>Django and Django REST Framework</li>
-            <li>Node.js</li>
-            <!-- Add your other languages -->
-        </ul>
+    <!-- about section -->
+    <section class="about-sn" id="about">
+        <div class="abt-img">
+            <img src="smith.jpg" alt="">
+        </div>
+        <div class="abt-col">
+            <div class="abt-cnt">
+                <h2 class="heading">About <span> Me</span></h2>
+                <h3>Full Stack Developer</h3>
+                <p>Hi there! I'm Hemstone smith, I am a seasoned software engineer specializing in 
+                    full-stackdevelopment, 
+                    backend systems, and web design. Passionate about crafting innovative solutions,
+                     I thrive in collaborative environments, tackling complex challenges and driving 
+                     advancements in technology..</p>
+                <a href="https://drive.google.com/file/d/12tjnS9u4aOYmg91vIHf37Tzjzltap8Cw/view?usp=sharing" class="btn" download>
+                    Read More</a>
+            </div>
+        </div>
     </section>
+    <!-- end section about -->
 
-    <section id="education">
-        <h2>🎓 Educational Background</h2>
-        <p>I hold a BSc in Mathematics and Computer Science from the Technical University of Mombasa.</p>
-        <a href="https://drive.google.com/file/d/12tjnS9u4aOYmg91vIHf37Tzjzltap8Cw/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download My CV</a>
+    <!-- my journey -->
+    <section class="journey-sn">
+        <h2 class="heading">My <span>Journey</span></h2>
+        <div class="journey-cont">
+            <div class="education-sn">
+                <h2>Education</h2>
+                <div class="edu-ct">
+                    <h3>September 2019 - December 2023</h3>
+                    <h2><i class="fas fa-graduation-cap"></i> Bachelor of Science in Mathematics and Computer Science</h2>
+                    <h3>Technical University of Mombasa</h3>
+                    <p>BSc.IN MATHEMATICS AND COMPUTER SCIENCE, Technical University of Mombasa, Mombasa, Kenya,
+                         Second Class Honours,
+                         Pursued a Bachelors of Science in Mathematics and Computer Science
+                        Developed a deep understanding of software engineering principles, specializing 
+                        full-stack development.</p>
+                </div>
+                <div class="edu-ct">
+                    <h3>September 2020 - December 2020</h3>
+                    <h2><i class="fas fa-graduation-cap"></i> Certificate - Computer Studies</h2>
+                    <h3>Technical University of Mombasa</h3>
+                    <p>Completed an intensive course covering computer fundamentals, packages, programming basics, and software applications.</p>
+                </div>
+                <div class="edu-ct">
+                    <h3>January 2015 - November 2018</h3>
+                    <h2><i class="fas fa-graduation-cap"></i> KCSE - Angino Mixed Secondary School</h2>
+                    <h3>Technical University of Mombasa</h3>
+                    <p>Excelled in national examinations, focusing on science and technology subjects, preparing for higher education.</p>
+                </div>
+                <div class="edu-ct">
+                    <h3>January 2008 - November 2015</h3>
+                    <h2><i class="fas fa-graduation-cap"></i> KCPE -Angeno Primary School</h2>
+                    <h3>Technical University of Mombasa</h3>
+                    <p>Achieved a solid foundation in primary education, with a strong emphasis on mathematics and science.</p>
+                </div>
+            </div>
+            <div class="education-sn">
+                <h2>Experiences</h2>
+                <div class="edu-ct">
+                    <h3>March 2024 - June 2024</h3>
+                    <h2><i class="fas fa-history"></i> AI Tutor-Tech Editor, Mindrift, Nairobi, Part-Time</h2>
+                    <p>• Edit and fact-check programming content </p>
+                    <p>• Review and improve textx. Ensure quality, formatting, style, and originality
+                    </p>
+                </div>
+                <div class="edu-ct">
+                    <h3>January 2023 - April 2023</h3>
+                    <h2><i class="fas fa-history"></i> ICT Administrator - Kenya power limited Company</h2>
+                    <p>• Took part in monitoring the proxy servers to ensure every user has access to the network. </p>
+                    <p> Identifying and troubleshooting database errors and issues.</p>
+                    <p>• Writing and maintaining SQL queries and scripts to extract data and generate reports.</p>
 
+                </div>
+                <div class="edu-ct">
+                    <h3>June 2023 - December 2023</h3>
+                    <h2><i class="fas fa-history"></i> Web Developer - Personal Assistance</h2>
+                    <p>• Assisted in coding tasks, such as designing a Website and redesigning Websites.</p>
+                    <p>• Research and analysis. Research topics related to Web Development, such as new technologies or tools which make developers make informed decisions.
+                    </p>
+                </div>
+            </div>
+        </div>
     </section>
+    <!-- end journey design -->
 
-    <section id="interests">
-        <h2>💡 Interests</h2>
-        <ul>
-            <li>Web Development: I enjoy exploring the latest trends in web technologies and
-                 creating modern web applications.</li>
-            <li>Machine Learning: I love applying ML algorithms to solve real-world problems.</li>
-        </ul>
+    <!-- my skills -->
+    <section class="skills-sn" id="skills">
+        <h2 class="heading">My <span>Skills</span></h2>
+        <div class="skills-cont">
+            <div class="skills">
+                <h2>Technical Skills</h2>
+                <div class="skill-bx">
+                    <div class="skill-ct">
+                        <div class="skill-header">
+                            <h2>HTML</h2>
+                            <h2>97%</h2>
+                        </div>
+                        <div class="percent-cont">
+                            <div class="skill-percent" style="width: 97%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-ct">
+                        <div class="skill-header">
+                            <h2>CSS</h2>
+                            <h2>95%</h2>
+                        </div>
+                        <div class="percent-cont">
+                            <div class="skill-percent" style="width: 95%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-ct">
+                        <div class="skill-header">
+                            <h2>JavaScript</h2>
+                            <h2>80%</h2>
+                        </div>
+                        <div class="percent-cont">
+                            <div class="skill-percent" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-ct">
+                        <div class="skill-header">
+                            <h2>Node.JS</h2>
+                            <h2>70%</h2>
+                        </div>
+                        <div class="percent-cont">
+                            <div class="skill-percent" style="width: 70%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-ct">
+                        <div class="skill-header">
+                            <h2>Django and Django Framework</h2>
+                            <h2>60%</h2>
+                        </div>
+                        <div class="percent-cont">
+                            <div class="skill-percent" style="width: 60%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-ct">
+                        <div class="skill-header">
+                            <h2>MySQL</h2>
+                            <h2>50%</h2>
+                        </div>
+                        <div class="percent-cont">
+                            <div class="skill-percent" style="width: 50%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills">
+                <h2>Non Technical Skills</h2>
+                <div class="skill-bx">
+                    <div class="skill-ct">
+                        <div class="skill-header">
+                            <h2>Communication</h2>
+                            <h2>Intermediate</h2>
+                            <h2>64%</h2>
+                        </div>
+                        <div class="percent-cont">
+                            <div class="skill-percent" style="width: 64%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-ct">
+                        <div class="skill-header">
+                            <h2>Teamwork</h2>
+                            <h2>Excellent</h2>
+                            <h2>85%</h2>
+                        </div>
+                        <div class="percent-cont">
+                            <div class="skill-percent" style="width: 85%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-ct">
+                        <div class="skill-header">
+                            <h2>Time Management</h2>
+                            <h2>Average</h2>
+                            <h2>75%
+                            </h2>
+                        </div>
+                        <div class="percent-cont">
+                            <div class="skill-percent" style="width: 75%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-ct">
+                        <div class="skill-header">
+                            <h2>Adaptability</h2>
+                            <h2>Excellent</h2>
+                            <h2>83%</h2>
+                        </div>
+                        <div class="percent-cont">
+                            <div class="skill-percent" style="width: 83%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-ct">
+                        <div class="skill-header">
+                            <h2>Problem-solving</h2>
+                            <h2>Good</h2>
+                            <h2>80%</h2>
+                        </div>
+                        <div class="percent-cont">
+                            <div class="skill-percent" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                    <div class="skill-ct">
+                        <div class="skill-header">
+                            <h2>Critical Thinking</h2>
+                            <h2>Good</h2>
+                            <h2>80%</h2>
+                        </div>
+                        <div class="percent-cont">
+                            <div class="skill-percent" style="width: 80%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     </section>
+    <!-- end skills -->
 
-    <section id="projects">
-        <h2>🛠️ Projects</h2>
-        <ul>
-            <li><a href="https://biosecure.vercel.app" target="_blank " rel="noopener noreferre">
-                Biosecure</a>:An innovative system enhances ATM security by replacing traditional
-                 card authentication with biometric verification. It introduces a two-step process
-                  where users first enter their ATM PIN, 
-                followed by fingerprint authentication before any transaction.
-                </li>
-            <li><a href="https://github.com/Hemms/Python-codes-to-implement-oppermann-s-conjecture.git" target="_blank" rel="noopener noreferre">
-                opperman conjecture</a>: 
-                This projectimplements a Python script
-            to explore Oppermann’s Conjecture. 
-                 The conjecture proposes that for any integer n > 1,
-                 there is at least one prime number between n^2 - n and n^2 + n.</li>
-        </ul>
+    <!-- services design -->
+    <section class="service-sn" id="service">
+        <h2 class="heading">My <span> Services</span></h2>
+        <div class="srv-cnt">
+            <div class="srv-bx">
+                <i class="bx bx-code-alt"></i>
+                <h3>Web Development</h3>
+                <p>Building robust, scalable, responsive, and efficient web applications tailored to your unique needs and specifications.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="srv-bx">
+                <i class="bx bx-code-alt"></i>
+                <h3>UI/UX Designer</h3>
+                <p>Designing, seamless, and visually appealing user experiences that significantly enhance user satisfaction and engagement.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="srv-bx">
+                <i class="bx bx-code-alt"></i>
+                <h3>Data Entry Clerk</h3>
+                <p>Accurately analyzing and managing data to provide actionable insights and support informed decision-making processes.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
     </section>
+    <!--end-secion-service-->
 
-    <section id="contact">
-        <h2>📬 Contact Me</h2>
-        <form action="submit_form.php" method="post">
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" required><br>
-            <label for="email">Email:</label><br>
-            <input type="email" id="email" name="email" required><br>
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" required></textarea><br>
-            <input type="submit" value="Send">
+    <!-- start-section-portfolio -->
+
+    <section class="portfolio-sn" id="projects">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-cnt">
+            <div class="portfolio-bx">
+                <img src="img/blissuite.png" alt="">
+                <div class="portfolio-lr">
+                    <h4>Opperman Conjecture</h4>
+                    <p>A responsive system that Determines whether a given number is prime.
+                         Prime Generation: Generates all prime numbers up to n^2 for a given n. Oppermann’s Conjecture Test: 
+                        Checks for prime numbers in the range n^2 - n to n^2 + n to validate the conjecture..</p>
+                    <div class="external-links">
+                        <a href=""><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/Hemms/Python-codes-to-implement-oppermann-s-conjecture"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-bx">
+                <img src="img/milk.png" alt="">
+                <div class="portfolio-lr">
+                    <h4>Biosecure system</h4>
+                    <p>Develop a highly secure system utilizing cutting-edge biometric technology to replace traditional 
+                        credit cards with biometric authentication for accessing and withdrawing funds from bank ATMs. .</p>
+                    <div class="external-links">
+                        <!-- <a href="https://blissuite.000webhostapp.com/"><i class="fas fa-link"></i></a> -->
+                        <a href="https://biosecure.vercel.app/"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-bx">
+                <img src="img/portfolio.png" alt="">
+                <div class="portfolio-lr">
+                    <h4>Portfolio</h4>
+                    <p>My personal portfolio showcasing my projects, skills, and professional experience.</p>
+                    <div class="external-links">
+                        <a href=""><i class="fas fa-link"></i></a>
+                        <a href="https://github.com/Hemms/Hemstone-Smith-portfolio"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-bx">
+                <img src="img/quotes.png" alt="">
+                <div class="portfolio-lr">
+                    <h4>Expense Tracker</h4>
+                    <p>A web Application that tracks expenses.</p>
+                    <a href="https://github.com/Hemms/Week-5-hands-On"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end-section-portfolio -->
+
+    <!-- start-section-contact -->
+
+    <section class="contact-sn" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-bx">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-bx">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
+    <!-- start-section-contact -->
 
-    <footer>
-        <p>&copy; 2024 Hemstone Smith. All Rights Reserved.</p>
+    <!-- start-footer-section -->
+
+    <footer class="footer-sn">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by SmithDev | All Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#" id="back-to-top"><i class="fas fa-arrow-alt-circle-up"></i></a>
+        </div>
+
     </footer>
+
+    <!-- end-footer-section -->
+
+    <script>
+        document.getElementById('burgerMenu').addEventListener('click', function() {
+            var navItems = document.getElementById('navItems');
+            var burgerIcon = document.querySelector('.burger-menu i');
+            navItems.classList.toggle('active');
+            burgerIcon.classList.toggle('fa-bars');
+            burgerIcon.classList.toggle('fa-times');
+        });
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var backToTopBtn = document.getElementById("back-to-top");
+
+            window.addEventListener("scroll", function() {
+                if (window.scrollY > 1200) {
+                    backToTopBtn.classList.add("show");
+                } else {
+                    backToTopBtn.classList.remove("show");
+                }
+            });
+
+            backToTopBtn.addEventListener("click", function(e) {
+                e.preventDefault();
+                window.scrollTo({
+                    top: 0,
+                    behavior: "smooth"
+                });
+            });
+        });
+    </script>
 </body>
+
 </html>
