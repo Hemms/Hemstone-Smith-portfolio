@@ -100,6 +100,8 @@ span {
     height: 400px;
     border-radius: 50%;
     box-shadow: 0 0 1rem var(--main-color);
+    object-fit: cover;
+    
 }
 
 .social-media a {
@@ -152,12 +154,14 @@ span {
 
 .abt-img {
     width: 35vw;
+    object-fit: cover;
 }
 
 .abt-img img {
     width: 400px;
     height: 400px;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .heading {
@@ -638,3 +642,4 @@ span {
         padding: 100px 0;
     }
 }
+
